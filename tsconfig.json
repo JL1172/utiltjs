@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "strict": true,
     "declaration": true,
-    "declarationMap": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -18,9 +16,6 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false,
-    "moduleResolution": "Node",
-  },
-  "include": ["src/*"],
-  "exclude": ["node_modules","jest.config.ts","tsconfig.json",]
+    "noFallthroughCasesInSwitch": false
+  }
 }
