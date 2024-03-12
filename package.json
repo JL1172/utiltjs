@@ -13,6 +13,7 @@
   "devDependencies": {
     "@types/jest": "^29.5.2",
     "@types/node": "^20.3.1",
+    "@types/readline-sync": "^1.4.8",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.42.0",
@@ -40,5 +41,10 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "dependencies": {
+    "fkill": "^9.0.0",
+    "kill-port-process": "^3.2.0",
+    "readline-sync": "^1.4.10"
   }
 }
