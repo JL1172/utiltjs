@@ -1,6 +1,6 @@
 import { ExecOptions, exec } from 'child_process';
 import * as util from 'util';
-import { zenityCommand } from './error-bundler';
+import { zenityCommand } from './error-message';
 
 const execPromise = util.promisify(exec);
 
